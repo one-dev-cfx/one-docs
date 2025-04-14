@@ -1,0 +1,53 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.research {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;
+    gap: 20px;
+}
+
+.research input {
+    cursor: pointer;
+    width: 500px;
+    height: 50px;
+}
+
+.containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow-y: scroll;
+    align-self: right;
+}
+
+.results_item {
+    cursor: pointer;
+    margin: 0;
+    background: #0000003f;
+    padding: 5px 150px;
+    border-radius: 10px;
+}
+
+.item_md {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    overflow-x: scroll;
+}
