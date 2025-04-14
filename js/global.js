@@ -10,7 +10,7 @@ let side = "client"
 let markdown;
 
 async function getNatives() {
-    const natives = await fetch("/src/natives.json").then(response => response.json()).then(data => data)
+    const natives = await fetch("/natives.json").then(response => response.json()).then(data => data)
     let table = []
     let path = []
     for (const key in natives) {
