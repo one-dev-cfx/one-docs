@@ -101,7 +101,7 @@ search.addEventListener("input", async () => {
             }
 
             const element = document.createElement("div")
-            await fetch(`../content${mdPath}`).then(response => response.text()).then(data => {
+            await fetch(`/docs/content${mdPath}`).then(response => response.text()).then(data => {
                 if (markdown) {
                     body.removeChild(markdown)
                     markdown.innerHTML = ""
