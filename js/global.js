@@ -1,3 +1,4 @@
+import natives from "./natives.js"
 const search = document.querySelector(".search_natives")
 const results = document.querySelector(".results")
 const body = document.querySelector("body")
@@ -10,7 +11,6 @@ let side = "client"
 let markdown;
 
 async function getNatives() {
-    const natives = await fetch("../natives.json").then(response => response.json()).then(data => data)
     let table = []
     let path = []
     for (const key in natives) {

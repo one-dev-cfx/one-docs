@@ -1,4 +1,4 @@
-{
+const natives = {
     "server": {
         "character": [
             {"name": "CreateCharacter", "path": "/server/character/createCharacter.md", "type": "server"},
@@ -157,3 +157,5 @@
         "client": []
     }
 }
+
+export default natives
