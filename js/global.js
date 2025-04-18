@@ -10,7 +10,7 @@ let side = "client"
 let markdown;
 
 async function getNatives() {
-    const natives = await fetch("/docs/natives.json").then(response => response.json()).then(data => data)
+    const natives = await fetch("../natives.json").then(response => response.json()).then(data => data)
     let table = []
     let path = []
     for (const key in natives) {
@@ -101,7 +101,7 @@ search.addEventListener("input", async () => {
             }
 
             const element = document.createElement("div")
-            await fetch(`/docs/content${mdPath}`).then(response => response.text()).then(data => {
+            await fetch(`../content${mdPath}`).then(response => response.text()).then(data => {
                 if (markdown) {
                     body.removeChild(markdown)
                     markdown.innerHTML = ""
