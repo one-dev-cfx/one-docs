@@ -93,6 +93,11 @@ const natives = {
             {"name": "RegisterClientCallback", "path": "/client/event/registerServerCallback.md", "type": "client"},
             {"name": "TriggerServerCallback", "path": "/client/event/triggerClientCallback.md", "type": "client"},
             {"name": "TriggerServerCallbackAwait", "path": "/client/event/TriggerClientCallbackAwait.md", "type": "client"}
+        ],
+        "raycast": [
+            {"name": "GetRaycastFromCoords", "path": "/client/raycast/getRaycastFromCoords.md", "type": "client"},
+            {"name": "GetRaycastFromCoords2", "path": "/client/raycast/getRaycastFromCoords2.md", "type": "client"},
+            {"name": "GetRaycastFromCamera", "path": "/client/raycast/getRaycastFromCoords.md", "type": "client"}
         ]
     },
     "shared": {
