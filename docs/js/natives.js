@@ -68,7 +68,12 @@ const natives = {
             {"name": "MYSQL_ATRANSACTION", "path": "/server/database/mysql_atransaction.md", "type": "server"},
             {"name": "MYSQL_TRANSACTION", "path": "/server/database/mysql_transaction.md", "type": "server"},
             {"name": "MYSQL_READY", "path": "/server/database/mysql_ready.md", "type": "server"}
-        ]
+        ],
+        "vehicles": [
+            {"name": "GetVehiclesOfOwner", "path": "/server/vehicles/getVehiclesOfOwner.md", "type": "server"},
+            {"name": "AddVehicleToDataBase", "path": "/server/vehicles/addVehicleToDataBase.md", "type": "server"},
+            {"name": "IsPlateAvaible", "path": "/server/vehicles/isPlateAvaible.md", "type": "server"},
+        ],
     },
     "client": {
         "character": [
