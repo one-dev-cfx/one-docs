@@ -29,7 +29,8 @@ const natives = {
             {"name": "GetCountOfCoinsFromPlayer", "path": "/server/player/getCountOfCoinsFromPlayer.md", "type": "server"},
             {"name": "GetPlayerLevelVIP", "path": "/server/player/getPlayerLevelVIP.md", "type": "server"},
             {"name": "GetPlayerInfoDateFromDatabase", "path": "/server/player/getPlayerInfoDateFromDatabase.md", "type": "server"},
-            {"name": "GetPlayerUUID", "path": "/server/player/getPlayerUUID.md", "type": "server"}
+            {"name": "GetPlayerUUID", "path": "/server/player/getPlayerUUID.md", "type": "server"},
+            {"name": "GetPlayerIdFromIdentifier", "path": "/server/player/getPlayerIdFromIdentifier.md", "type": "server"},
         ],
         "acl": [
             {"name": "RemoveAce", "path": "/server/acl/removeAcl.md", "type": "server"},
